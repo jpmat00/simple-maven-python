@@ -8,5 +8,10 @@ public class Main {
         try (Interpreter jep = new SharedInterpreter()) {
             jep.eval("print('Hello, from Python!')");
         }
+
+
+        try (Interpreter jep = new SharedInterpreter()) {
+            jep.eval("print('Hello, from Python!')");
+        }
     }
 }
